@@ -1,0 +1,84 @@
+/* this holds containers and media's */
+
+/* nav containers */
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .mScreen{
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-width: 990px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .con-mobile{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .container{
+        max-width: 720px;
+    }
+    .shadow{
+        padding: 3rem;
+    }
+    .col2{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col3{
+        flex: 0 0 auto;
+        width: 41.6666666667%;
+    }
+    .col4{
+        flex: 0 0 auto;
+        width: 58.3333333333%
+    }
+    .des2{
+        padding-top: 0!important;
+    }
+}
+
+@media only screen and (min-width: 765px) {
+    .firstMe .myTitle{
+        font-size: 4.5rem;
+    }
+    .subtitle{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 575px){
+    .container{
+        max-width: 540px;
+    }
+    .col{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col3{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col4{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
